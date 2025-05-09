@@ -1,9 +1,10 @@
 import BackArrow from "../../components/BackArrow/BackArrow"
 import Logo from "../../components/Logo/Logo"
+import "./signup.css"
 
-function LoginForm(){
+function SignupForm(){
   return (
-    <div>
+    <div className="signupform">
       <div>
 	<input placeholder="Email"/>
       </div>
@@ -16,15 +17,15 @@ function LoginForm(){
 	<input placeholder="Full Name"/>
       </div>
 
-      <div>
+      <div className="marginbottom">
 	<input placeholder="Username"/>
       </div>
 
-      <div>
-	    People who use our service may have uploaded your contact information to instagram. <a>Learn More</a>
+      <div className="text">
+			      People who use our service may have uploaded your contact information to instagram. <a href="/learnmore">Learn More</a>
       </div>
-      <div>
-	    By signing up, you agree to our <a>Terms</a>, <a>Privacy Policy</a> and <a>Cookies Policy</a>.
+      <div className="text">
+			      By signing up, you agree to our <a href="/terms">Terms</a>, <a href="/privacy">Privacy Policy</a> and <a href="/cookies">Cookies Policy</a>.
       </div>
 
       <div>
@@ -39,16 +40,16 @@ function LoginForm(){
 function SignUp(){
   return (
     <div>
-      {/* <Logo/> */}
+      <Logo/>
       {/* <Header/> */}
       {/* <Or/> */}
-      <LoginForm/>
+      <SignupForm/>
 
-      <div>
+      <div className="center">
 	Have an account?
       </div>
 
-      <div>
+      <div className="center">
 	<a href="/login">Login</a>
       </div>
 

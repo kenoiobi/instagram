@@ -1,0 +1,71 @@
+body{
+    font-family: Helvetica;
+}
+
+.loginform{
+    text-align: center;
+    margin-top: 10px;
+    /* margin: auto; */
+    /* width: 500px; */
+}
+
+.loginform input{
+    font-size: 15px;
+    margin: 5px;
+    padding: 10px 12px;
+    width: 210px;
+    border-radius: 8px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: grey;
+}
+
+.text{
+    margin: auto;
+    margin-top: 10px;
+    font-size: 14px;
+    width: 350px;
+    font-weight: 600;
+    color: grey;
+}
+
+.loginform button{
+    margin-top: 25px;
+    margin-bottom: 20px;
+    border: 0;
+    background-color: blue;
+    border-radius: 20px;
+    width: 220px;
+    height: 45px;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.text a{
+    color: #4169E1;
+}
+
+.center{
+    margin: auto;
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+.marginbottom{
+    /* margin-bottom: 12px; */
+}
+
+.line{
+    border-top: solid;
+    width: 200px;
+    padding-top: 15px;
+    border-width: 1px;
+    border-color: grey;
+    margin-top: 5px;
+    margin-bottom: 12px;
+}
+
+.logo{
+    margin-top: 270px;
+}
